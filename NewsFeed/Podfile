@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+platform :ios, '11'
+
+workspace 'NewsFeed'
+
+target "NewsFeedTests" do
+  pod 'OHHTTPStubs'
+  pod 'OHHTTPStubs/Swift'
+end
